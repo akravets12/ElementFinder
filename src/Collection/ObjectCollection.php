@@ -109,7 +109,7 @@ class ObjectCollection implements \IteratorAggregate, \Countable
 
 
     /**
-     * @param ElementFinder $element
+     * @param ElementFinderInterface $element
      * @return ObjectCollection
      * @throws \Exception
      */
