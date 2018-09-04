@@ -109,11 +109,11 @@ class ObjectCollection implements \IteratorAggregate, \Countable
 
 
     /**
-     * @param ElementFinder $element
+     * @param ElementFinderInterface $element
      * @return ObjectCollection
      * @throws \Exception
      */
-    final public function add(ElementFinder $element): ObjectCollection
+    final public function add(ElementFinderInteface $element): ObjectCollection
     {
         $items = $this->all();
         $items[] = $element;
