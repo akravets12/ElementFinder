@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Xparse\ElementFinder\Collection;
 
-use Xparse\ElementFinder\ElementFinder;
+use Xparse\ElementFinder\ElementFinderInterface;
 
 /**
  * @author Ivan Shcherbak <alotofall@gmail.com>
