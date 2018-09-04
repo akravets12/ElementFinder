@@ -131,7 +131,7 @@ class ElementFinder implements ElementFinderInterface
      * ```
      *
      * @param string $expression
-     * @return ElementFinder
+     * @return ElementFinderInterface
      */
     final public function remove($expression): ElementFinderInterface
     {
